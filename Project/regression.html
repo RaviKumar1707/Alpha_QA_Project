@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>REGRESSION TESTING</title>
+        <link rel="stylesheet" href="regression.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="regression">
+                <h1>REGRESSION TESTING</h1>
+            </div>
+            <p><b>Regression Testing</b> is defined as a type of software testing to confirm that a recent program or code change has not adversely affected existing features. Regression Testing is nothing but a full or partial selection of already executed test cases that are re-executed to ensure existing functionalities work fine.</p>
+            <p>This testing is done to ensure that new code changes do not have side effects on the existing functionalities. It ensures that the old code still works once the latest code changes are done.</p>
+            <h2>Why Regression Testing</h2>
+            <p>There is a need for regression testing whenever the code is changed, and you need to determine whether the modified code will affect other parts of the software application. Moreover, regression testing is needed when a new feature is added to the software application. Regression tests may also be performed when a functional or performance defect/issue is fixed.</p>
+            <h2>When can we perform Regression Testing?</h2>
+            <p>Here are the scenarios when you can perform regression testing.</p>
+            <ul>
+                <li><b>New functionality is added to the application:</b> This happens when new features or modules are created in an app or a website. The regression is performed to see if the feature is working properly.</li>
+                <li><b>In case of change requirement:</b> When any significant change occurs in the system, regression testing is used. This test is done to check if these shifts have affected other features.</li>
+                <li><b>After a defect is fixed:</b> The developers perform regression after fixing a bug issue in any functionality. This is done to determine if the changes made while fixing the issue have affected other related features.</li>
+                <li><b>Once the performance issue is fixed:</b> After fixing any performance issues, regression testing is done to see if it has affected other functionalities.</li>
+                <li><b>While integrating with a new external system:</b> Regression testing is required whenever the product integrates with a new external system.</li>
+            </ul>
+            <h2>How to do Regression Testing in Software Testing</h2>
+            <p>In order to do Regression Testing process, we need to first debug the code to identify the bugs. Once the bugs are identified, required changes are made to fix it, then the regression testing is done by selecting relevant test cases from the test suite that covers both modified and affected parts of the code.</p>
+            <p>Software maintenance is an activity which includes enhancements, error corrections, optimization and deletion of existing features. These modifications may cause the system to work incorrectly. Therefore, Regression Testing becomes necessary. Regression testing, and specifically various regression testing techniques, can be carried out for effective software quality assurance:</p>
+            <img src="https://www.guru99.com/images/regressiontestingtypes.png">
+            <h3>Retest All</h3>
+            <p>This is one of the methods for Regression Testing, specifically employing a regression testing suite, in which all the tests in the existing test bucket or suite should be re-executed. This is very expensive as it requires huge time and resources.</p>
+            <h3>Regression Test Selection</h3>
+            <p>Regression Test Selection is a technique in which some selected test cases from test suite are executed to test whether the modified code affects the software application or not. Test cases are categorized into two parts, reusable test cases which can be used in further regression cycles and obsolete test cases which can not be used in succeeding cycles.</p>
+            <h3>Prioritization of Test Cases</h3>
+            <p>Prioritize the test cases depending on business impact, critical & frequently used functionalities. Selection of test cases based on priority will greatly reduce the regression test suite.</p>
+            <h2>Types of Regression Testing</h2>
+            <p>Here are the different kinds of regression testing:</p>
+            <img src="http://www.wordpress4.guru99.com/images/regression-testing-type.png">
+            <h3>Unit Regression Testing (URT)</h3>
+            <p>This is a very focused approach where only the modified section goes under the regression test instead of the impact region. In this way, the other portions of the module remain unaffected.</p>
+            <h4>Example:</h4>
+            <p>In the example in Build 1, an issue is found and reported to the developer.</p>
+            <br>
+            <p>Let’s say there is a bug in the login functionality, so the developer fixes it, adds new features in Build 2, and submits it. The testing team checks only if the login feature is working as expected instead of checking other features.</p>
+            <h3>Regional Regression Testing (RRT)</h3>
+            <p>Regional regression testing, the modification and impact areas are tested. This area is examined to find out if any dependable modules might be affected by the changes</p>
+            <h4>Example:</h4>
+            <p>In this example, in the first build, the modules A, B, C, and D are sent for testing by the developer. The tester finds bugs in module B, so the application is returned to the developer to fix the bugs.</p>
+            <br>
+            <p>Once the developer fixes the bugs in the second build in module B, it is sent to the test engineer again. The engineer learns that fixing module B has affected A and C.</p>
+            <br>
+            <p>Hence, the tester checks module B’s modifications in the second release. Then tests the impact regions in A and C as well to identify how they have been affected.</p>
+            <h2>Full Regression Testing (FRT):</h2>
+            <p>This testing covers all the functionalities of an application. Full regression testing is usually performed in later releases after the first or first two releases as a final test before launching.</p>
+            <br>
+            <p>In the second or third build, the clients ask for three or more modifications, demands new functionalities, and report defects. The testing unit then conducts impact analysis, makes all the modifications, and performs a final complete product test.</p>
+            <br>
+            <p>In the second or third build, the clients ask for three or more modifications, demands new functionalities, and report defects. The testing unit then conducts impact analysis, makes all the modifications, and performs a final complete product test.</p>
+            <br>
+            <p>To perform complete regression testing, you have to consider these circumstances:</p>
+            <br>
+            <p>In case any changes are created in the origin file of the product. For example, if there is a modification in a root file of an app, then the whole program used to build the application will be analyzed.</p>
+            <br>
+            <p>If there are numerous changes made.</p>
+            <h2>Corrective Regression Testing:</h2>
+            <p>This testing is done when no modifications are made to the features. Such tests can be performed with existing cases.</p>
+            <h2>Retest All Regression Testing:</h2>
+            <p>In this form of testing, all the minor to major changes made in the application from the origin or build 1 is retested.</p>
+            <br>
+            <p>This testing is done when all other regression tests fail to identify the root cause of the issues.</p>
+            <h2>Selective Regression Testing:</h2>
+            <p>This is conducted to check how the code reacts when a fresh code is added to the program. In order to conduct this test, the sub-set from existing cases is used to make it efficient and cost-effective.</p>
+            <h2>Progressive regression testing:</h2>
+            <p>This type of regression testing produces important outputs when specific changes are made in the program, and new test cases are created.</p>
+            <br>
+            <p>It helps ensure that no components from the older versions have been affected in the latest version.</p>
+            <h2>Partial Regression Testing:</h2>
+            <p>This regression test is performed to find problems when a newly written code is inserted in existing lines of code. It ensures the application performance has not been affected due to adding new codes.</p>
+            <h3>Advantage</h3>
+            <ul>
+                <li>Regression testing improves the quality of the products.</li>
+                <li>With this testing, you ensure that the modifications and bug fixes have not changed the existing functionalities and features.</li>
+                <li>You can use automation tools and get faster results instead of depending only on manual testing.</li>
+                <li>Once the issues are fixed, it guarantees they do not reoccur.</li>
+                <li>It facilitates efficient development in building products.</li>
+                <li>You can achieve high user satisfaction with this testing.</li>
+                <li>Overall, it maintains the stability of the software.</li>
+            </ul>
+            <h3>Disadvantage</h3>
+            <ul>
+                <li>It should be conducted every time a small change is made, as the slightest change can bring issues in existing modules.</li>
+                <li>This test can be time-consuming when conducted manually, requiring repeated testing.</li>
+            </ul>
+            <br>
+            <br>
+        </div>
+    </body>
+</html>

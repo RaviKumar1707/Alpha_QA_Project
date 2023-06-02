@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGVjaHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80);
+    font-family: sans-serif;
+}
+
+.box {
+    
+    position: relative;
+    color: white;
+    width: 400px;
+    height: 480px;
+    margin-top: 130px;
+    margin-left: 800px;
+    background: transparent;
+    border: 2px solid #ffff;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(112, 107, 107, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*overflow: hidden;*/
+    column-gap: 30px;
+
+}
+
+h1{
+    font-size: 28px;
+    font-weight: 600;
+    color: #3b1919;
+    text-align: center;
+}
+
+.myform .icon {
+    .input-box .icon {
+        position: absolute;
+        right: 8px;
+        font-size: 1.2em;
+        color:#ffff;
+        line-height: 57px;
+    }
+}
+

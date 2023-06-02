@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>INTEGRATION TESTING</title>
+        <link rel="stylesheet" href="integration.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="integration">
+                <h1>INTEGRATION TESTING</h1>
+            </div>
+            <p><b>Integration Testing</b> is defined as a type of testing where software modules are integrated logically and tested as a group. A typical software project consists of multiple software modules, coded by different programmers. The purpose of this level of testing is to expose defects in the interaction between these software modules when they are integrated</p>
+            <br>
+            <p><b>Integration Testing</b> focuses on checking data communication amongst these modules. Hence it is also termed as <b>‘I & T’</b> (Integration and Testing), <b>‘String Testing’</b> and sometimes <b>‘Thread Testing’</b>.</p>
+            <h2>Types of Integration Testing</h2>
+            <ul>
+                <li>
+                    Big Bang Approach
+                </li>
+                <li>
+                    Incremental Approach
+                    <ul>
+                        <li>
+                            Top Down Approach
+                        </li>
+                        <li>
+                            Bottom Up Approach
+                        </li>
+                        <li>
+                            Sandwich Approach - Combination of Top Down and Bottom Up Approach.x
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <h2>Big Bang Approach</h2>
+            <p><b>Big Bang Testing</b> is an Integration testing approach in which all the components or modules are integrated together at once and then tested as a unit. This combined set of components is considered as an entity while testing. If all of the components in the unit are not completed, the integration process will not execute.</p>
+            <h3>Advantage</h3>
+            <ul>
+                <li>Convenient for small systems.</li>
+            </ul>
+            <h3>Disadvantage</h3>
+            <ul>
+                <li>Fault Localization is difficult.</li>
+                <li>Given the sheer number of interfaces that need to be tested in this approach, some interfaces link to be tested could be missed easily.</li>
+                <li>Since the Integration testing can commence only after “all” the modules are designed, the testing team will have less time for execution in the testing phase.</li>
+                <li>Since all modules are tested at once, high-risk critical modules are not isolated and tested on priority. Peripheral modules which deal with user interfaces are also not isolated and tested on priority.</li>
+            </ul>
+            <h2>Incremental Testing</h2>
+            <p>In the <b>Incremental Testing</b> approach, testing is done by integrating two or more modules that are logically related to each other and then tested for proper functioning of the application. Then the other related modules are integrated incrementally and the process continues until all the logically related modules are integrated and tested successfully.</p>
+            <br>
+            <p>Incremental Approach, in turn, is carried out by two different Methods:</p>
+            <ul>
+                <li>Bottom Up</li>
+                <li>Top Down</li>
+            </ul>
+            <h2>Stubs and Drivers</h2>
+            <p><b>Stubs and Drivers</b> are the dummy programs in Integration testing used to facilitate the software testing activity. These programs act as a substitutes for the missing models in the testing. They do not implement the entire programming logic of the software module but they simulate data communication with the calling module while testing.</p>
+            <br>
+            <p><b>Stub:</b> Is called by the Module under Test.</p>
+            <br>
+            <p><b>Driver:</b> Calls the Module to be tested.</p>
+            <h2>Bottom-up Integration Testing</h2>
+            <p><b>Bottom-up Integration Testing</b> is a strategy in which the lower level modules are tested first. These tested modules are then further used to facilitate the testing of higher level modules. The process continues until all modules at top level are tested. Once the lower level modules are tested and integrated, then the next level of modules are formed.</p>
+            <div class = "image">
+                <h3>Diagrammatic Representation:</h3>
+                <img src="https://www.guru99.com/images/bottom-up-integration-testing.png">
+            </div>
+            <h3>Advantage</h3>
+            <ul>
+                <li>Fault localization is easier.</li>
+                <li>No time  is wasted waiting for all modules to be developed unlike Big-bang approach</li>
+            </ul>
+            <h3>Disadvantage</h3>
+            <ul>
+                <li>Critical modules (at the top level of software architecture) which control the flow of application are tested last and may be prone to defects.</li>
+                <li>An early prototype is not possible</li>
+            </ul>
+            <h2>Top-down Integration Testing</h2>
+            <p><b>Top Down Integration Testing</b> is a method in which integration testing takes place from top to bottom following the control flow of software system. The higher level modules are tested first and then lower level modules are tested and integrated in order to check the software functionality. Stubs are used for testing if some modules are not ready.</p>
+            <div class = "image">
+                <h3>Diagrammatic Representation:</h3>
+                <img src="https://www.guru99.com/images/top-down-integration-testing.png">
+            </div>
+            <h3>Advantage</h3>
+            <ul>
+                <li>Fault Localization is easier.</li>
+                <li>Possibility to obtain an early prototype.</li>
+                <li>Critical Modules are tested on priority; major design flaws could be found and fixed first.</li>
+            </ul>
+            <h3>Disadvantage</h3>
+            <ul>
+                <li>Needs many Stubs.</li>
+                <li>Modules at a lower level are tested inadequately.</li>
+            </ul>
+            <h2>Sandwich Testing</h2>
+            <p><b>Sandwich Testing</b> is a strategy in which top level modules are tested with lower level modules at the same time lower modules are integrated with top modules and tested as a system. It is a combination of Top-down and Bottom-up approaches therefore it is called <b>Hybrid Integration Testing</b>. It makes use of both stubs as well as drivers.</p>
+            <div class = "image">
+                <h3>Diagrammatic Representation:</h3>
+                <img src="https://www.guru99.com/images/1/Hybrid-Integration.png">
+            </div>
+        
+        </div>
+    </body>
+</html>

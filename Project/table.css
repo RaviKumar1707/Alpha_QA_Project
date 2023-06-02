@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 100vh;
+    background: url(https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.home a {
+    padding-left: 1400px;
+    font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+input {
+    margin-top: 20px;
+    border: none;
+    background: transparent;
+    outline: none;
+    height: 25px;
+    font-size: 16px;
+}
+
+.phase1 input {
+    color: black;
+    border-bottom: 1px solid #ffff;
+}
+
+.phase2 input {
+    color: #ffff;
+    border-bottom: 1px solid #ffff;
+}
+
+input:hover {
+
+    cursor: pointer;
+    background: #0097a7;
+}
+

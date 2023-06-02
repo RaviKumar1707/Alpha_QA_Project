@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>SMOKE TESTING</title>
+        <link rel="stylesheet" href="smoke.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="smoke">
+                <h1>SMOKE TESTING</h1>
+            </div>
+            <p><b>Smoke Testing</b> is a software testing process that determines whether the deployed software build is stable or not. Smoke testing is a confirmation for QA team to proceed with further software testing. It consists of a minimal set of tests run on each build to test software functionalities. Smoke testing is also known as <b>“Build Verification Testing”</b> or <b>“Confidence Testing.”</b></p>
+            <br>
+            <p>In simple terms, smoke tests means verifying the important features are working and there are no showstoppers in the build that is under testing. It is a mini and rapid regression test of major functionality. It is a simple test that shows the product is ready for testing. This helps determine if the build is flawed as to make any further testing a waste of time and resources.</p>
+            <h2>Manual Smoke Testing</h2>
+            <p>In general, smoke testing is done manually. It approaches varies from one organization to other. Smoke testing is carried to ensure the navigation of critical paths is as expected and doesn’t hamper the functionality. Once the build is released to QA, high priority functionality test cases are to be taken and are tested to find the critical defects in the system. If the test passes, we continue the functional testing. If the test fails, the build is rejected and sent back to the development team for correction. QA again starts smoke testing with a new build version. Smoke testing is performed on new build and will get integrated with old builds to maintain the correctness of the system. Before performing smoke testing, QA team should check for correct build versions.</p>
+            <h2>Automation Smoke Testing</h2>
+            <p>Automation Testing is used for Regression Testing. However, we can also use a set of automated test cases to run against Smoke Test. With the help of automation tests, developers can check build immediately, whenever there is a new build ready for deployment.</p>
+            <br>
+            <p>Instead of having repeated test manually whenever the new software build is deployed, recorded smoke test cases are executed against the build. It verifies whether the major functionalities still operates properly. If the test fails, then they can correct the build and redeploy the build immediately. By this, we can save time and ensure a quality build to the QA environment.</p>
+            <br>
+            <p>Using an automated tool, test engineer records all manual steps that are performed in the software build.</p>
+            <h2>Smoke Testing Cycle</h2>
+            <p>Below flow chart shows how Smoke Testing is executed. Once the build is deployed in QA and, smoke tests are passed we proceed for functional testing. If the smoke test fails, we exit testing until the issue in the build is fixed.</p>
+            <img src="https://www.guru99.com/images/3-2016/032816_1308_SmokeTestin2.png">
+            <h3>Advantage</h3>
+            <ul>
+                <li>Easy to perform testing</li>
+                <li>Defects will be identified in early stages.</li>
+                <li>Improves the quality of the system</li>
+                <li>Reduces the risk</li>
+                <li>Progress is easier to access.</li>
+                <li>Saves test effort and time</li>
+                <li>Easy to detect critical errors and correction of errors.</li>
+                <li>It runs quickly</li>
+                <li>Minimises integration risks</li>
+            </ul>
+            <br><br>
+        </div>
+    </body>
+</html>

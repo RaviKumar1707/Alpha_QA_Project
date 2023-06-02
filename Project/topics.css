@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main {
+    height: 100vh;
+    background: url(https://cdn.wallpapersafari.com/21/80/07ZEH1.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 50px;
+    color: blue ;
+}
+
+ul li {
+    
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-size: 22.5px;
+}

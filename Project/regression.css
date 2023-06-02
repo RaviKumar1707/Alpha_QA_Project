@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main {
+    
+    background-color: white ;
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 35px;
+    color: darkslateblue;
+}
+
+p {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    padding-left: 10px;
+}
+
+h2{
+        margin-top: 10px;
+        padding: 0 0 20px;
+        text-align: center;
+        font-size: 35px;
+         color: darkslateblue;
+}
+
+h3 {
+    margin-top: 10px;
+    text-align: start;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+h4{
+    margin-top: 10px;
+    text-align: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    color: blue;
+}
+li {
+    font-size: 20px;
+    color: black;
+    list-style: none;
+    padding-left: 40px;
+}
+li:not(:last-child){
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+li::before{
+    content: "\00BB";
+}
+
+img {
+    padding-top: 25px;
+    padding-left: 450px;
+    padding-bottom: 25px;
+}
